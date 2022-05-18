@@ -11,3 +11,15 @@ Solutions to the Stanford CS:234 Reinforcement Learning 2022 course.
   <img src="https://github.com/NickKaparinos/Stanford-CS-234-RL-2022/blob/master/Assignment%201/results/policy_iteration.png"  /> 
   <img src="https://github.com/NickKaparinos/Stanford-CS-234-RL-2022/blob/master/Assignment%201/results/policy_iteration.png" />
 </p>
+
+## Assignment 2
+** Tabular Q Learning and Deep Q Learning **
+
+Learning Curve on the test environment:
+
+<p align="center"><img src="https://github.com/NickKaparinos/Stanford-CS-234-RL-2022/blob/master/Assignment%202/results/scores.png" width="400"/></p>
+
+## Assignment 3
+** Policy Gradient Methods and REINFORCE **
+
+Learning Curve of the REINFORCE algorithm on CartPole-v0
