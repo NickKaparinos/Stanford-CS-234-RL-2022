@@ -113,16 +113,14 @@ class LinUCB(BanditPolicy):
         Hints:
         Keep track of a seperate A, b for each action (this is what the Disjoint in the algorithm name means)
         """
-        #######################################################
-        #########   YOUR CODE HERE - ~5 lines.   #############
+
         self.n_arms = n_arms
         self.features = features
         self.alpha = alpha
         self.d = len(features)
         self.A = [np.eye(self.d) for _ in range(n_arms)]
         self.b = [np.zeros((self.d, 1)) for _ in range(n_arms)]
-        #######################################################
-        #########          END YOUR CODE.          ############
+
 
     def choose(self, x):
         """
@@ -137,8 +135,7 @@ class LinUCB(BanditPolicy):
         TODO:
         Please implement the "forward pass" for Disjoint Linear Upper Confidence Bound Bandit algorithm.
         """
-        #######################################################
-        #########   YOUR CODE HERE - ~7 lines.   #############
+
         x_temp = []
         for feature in self.features:
             x_temp.append(x[feature])
@@ -153,8 +150,6 @@ class LinUCB(BanditPolicy):
         a_t = np.argmax(p)
         return ('low', 'medium', 'high')[a_t]
 
-        #######################################################
-        #########
 
     def update(self, x, a, r):
         """
@@ -173,8 +168,7 @@ class LinUCB(BanditPolicy):
 
         Hint: Which parameters should you update?
         """
-        #######################################################
-        #########   YOUR CODE HERE - ~4 lines.   #############
+
         x_temp = []
         for feature in self.features:
             x_temp.append(x[feature])
@@ -183,8 +177,6 @@ class LinUCB(BanditPolicy):
         a = ('low', 'medium', 'high').index(a)
         self.A[a] += np.matmul(x, x.transpose())
         self.b[a] += r * x
-        #######################################################
-        #########          END YOUR CODE.          ############
 
 
 # eGreedy Linear bandit
