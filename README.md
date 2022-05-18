@@ -1,6 +1,9 @@
 # Stanford-CS-234-RL-2022
 Solutions to the Stanford CS:234 Reinforcement Learning 2022 course.
 
+Course website:
+https://web.stanford.edu/class/cs234/
+
 ## Assignment 1
 **Frozen Lake Markov Decision Process using Value Iteration and Policy Iterasion**
 
@@ -31,3 +34,12 @@ Learning Curve of the REINFORCE algorithm on CartPole-v0:
 
 Comparison of different Bandit Algorithms:
 <p align="center"><img src="https://github.com/NickKaparinos/Stanford-CS-234-RL-2022/blob/master/Assignment%204/results/fraction_incorrect.png" width="550"/></p>
+
+## Assignment 5
+**Aplication of Upper Confidence Bandit in personalized Recomendation Systems**
+
+Comparison of different arm update strategies:
+<p align="center"><img src="https://github.com/NickKaparinos/Stanford-CS-234-RL-2022/blob/master/Assignment%205/results/fraction_incorrect.png" width="550"/></p>
+
+<p align="center"><img src="https://github.com/NickKaparinos/Stanford-CS-234-RL-2022/blob/master/Assignment%205/results/k_analysis.png" width="550"/></p>
+
