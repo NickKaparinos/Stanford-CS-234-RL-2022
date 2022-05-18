@@ -13,13 +13,21 @@ Solutions to the Stanford CS:234 Reinforcement Learning 2022 course.
 </p>
 
 ## Assignment 2
-** Tabular Q Learning and Deep Q Learning **
+**Tabular Q Learning and Deep Q Learning**
 
 Learning Curve on the test environment:
 
 <p align="center"><img src="https://github.com/NickKaparinos/Stanford-CS-234-RL-2022/blob/master/Assignment%202/results/scores.png" width="400"/></p>
 
 ## Assignment 3
-** Policy Gradient Methods and REINFORCE **
+**Policy Gradient Methods and REINFORCE**
 
-Learning Curve of the REINFORCE algorithm on CartPole-v0
+Learning Curve of the REINFORCE algorithm on CartPole-v0:
+
+<p align="center"><img src="https://github.com/NickKaparinos/Stanford-CS-234-RL-2022/blob/master/Assignment%203/code/results/CartPole-v0-no_baseline-seed%3D0/scores.png" width="400"/></p>
+
+## Assignment 4
+**Aplication of Bandits Algorithms in the medical setting**
+
+Comparison of different Bandit Algorithms:
+<p align="center"><img src="https://github.com/NickKaparinos/Stanford-CS-234-RL-2022/blob/master/Assignment%204/results/fraction_incorrect.png" width="400"/></p>
