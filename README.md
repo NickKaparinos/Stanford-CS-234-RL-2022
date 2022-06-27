@@ -1,5 +1,5 @@
 # Stanford-CS-234-RL-2022
-Solutions to the Stanford CS:234 Reinforcement Learning 2022 course.
+Solutions to the Stanford CS:234 Reinforcement Learning 2022 course assignments.
 
 Course website:
 https://web.stanford.edu/class/cs234/
